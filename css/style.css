@@ -342,6 +342,17 @@ template {
 }
 
 /* Components */
+.sidebar-menu {
+  background-color: #191919;
+  height: 100%;
+}
+
+.sidebar-menu img {
+  height: 15px;
+  width: 15px;
+  margin-right: 15px;
+}
+
 /* Sections */
 /* Pages / Views */
 

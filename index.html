@@ -6,14 +6,80 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Admin Panel Solo</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
   <link rel="stylesheet" href="vendor/Glyphter.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+<!-- DASHBOARD -->
+
 <!-- SECTION SIDEBAR -->
+  <section class="sidebar" id="sidebar">
+    <div class="row">
+      <div class="sidebar-menu__header">
+        <img src="images/logo.svg" alt="logo" title="just_do_it" class="logo">
+        <i class="fas fa-bars hamburger"></i>
+      </div>
+      <div >
+        <ul class="sidebar-menu__links">
+          <li class="menu__item">
+            <a href="#general" class="menu-link">
+              <img src="images/icons/general.svg" alt="star" title="general">
+              <p>General</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#details" class="menu-link">
+              <img src="images/icons/details.svg" alt="menu" title="details" class="icon">
+              <p>Details</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#links" class="menu-link">
+              <img src="images/icons/links.svg" alt="chain" title="links" class="icon">
+              <p>Links</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#banners" class="menu-link">
+              <img src="images/icons/banners.svg" alt="boxes" title="banners" class="icon">
+              <p>Banners</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#personal" class="menu-link">
+              <img src="images/icons/personaldata.svg" alt="figure" title="personal_data" class="icon">
+              <p>Personal data</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#payout" class="menu-link">
+              <img src="images/icons/payout.svg" alt="payment" title="payout" class="icon">
+              <p>Payout</p>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#postback" class="menu-link">
+              <img src="images/icons/postback.svg" alt="postback" title="postback" class="icon">
+              <p>Postback</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sidebar-menu__manager">
+      <h2 class="subtitle">Your manager</h2>
+      <div class="sidebar-menu__manager__row">
+        <div class="manager-image">
+          <img src="images/manager/manager.jpeg" alt="cat-coe" title="manager">
+        </div>
+        <p>Mikhael E.</p>
+      </div>
+    </div>
+  </section>
 
 <!-- SECTION NAVBAR -->
 
