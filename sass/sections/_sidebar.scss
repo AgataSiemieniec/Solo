@@ -1,0 +1,107 @@
+.sidebar{
+  background-color:$dark-color;
+  height: 100%;
+  margin: 0;
+  width: 188px;
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  color: $white-color;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.sidebar-header{
+  height: 60px;
+  justify-content: space-between;
+}
+
+.sidebar-logo{
+  display: inline-block;
+  img{
+    padding: 18px;
+    vertical-align: middle;
+  }
+}
+
+  .bar{
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.5;
+    padding: 18px;
+    position: relative;
+    vertical-align: middle;
+
+    &:hover{
+    color: $orange-color;
+    opacity: 1;
+    }
+  }
+
+.sidebar-manager{
+  img{
+    border-radius: 50%;
+    height: 43px;
+    width: 43px;
+    margin-left: 15px;
+  }
+  .profile{
+    text-transform: uppercase;
+    opacity: 0.5;
+    padding: 15px;
+    margin-top: 3px;
+  }
+  .profile-name{
+    color: $profile-color;
+    padding:8px;
+    margin: 0;
+    position: absolute;
+  }
+}
+
+.manager-photo::after {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: $green-color;
+  margin-left: -9px;
+}
+
+.sidebar-menu_links{
+  list-style-type: none;
+  border-bottom: 1px solid $paragraph-color;
+  margin: 0;
+  padding: 0 0 20px 0;
+
+  li{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+
+    &:hover{
+      background-color: $active-field-color;
+      border-left: 3px solid $orange-color;
+      opacity: 1;
+    }
+
+    a{
+      text-decoration: none;
+      color: $white-color;
+      padding: 10px 15px;
+      width: 100%;
+    }
+
+    img{
+      filter:invert(70%);
+      position: relative;
+    }
+
+    p{
+      padding-left: 10px;
+      position: absolute;
+    }
+  }
+}
