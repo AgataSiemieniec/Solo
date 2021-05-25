@@ -3,7 +3,7 @@
   border: none;
   height: 38px;
   width: 38px;
-  border-radius: 10%;
+  border-radius: 5%;
   margin-left: 15px;
   cursor: pointer;
 
@@ -17,4 +17,15 @@
   }
 }
 
+.links_add-button{
+  height: 40px;
+  width: 125px;
+  color: $white-color;
+  background-color: $orange-color;
+  border: 1px solid $orange-color;
+  border-radius: 5%;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 22px 0;
+}
 
