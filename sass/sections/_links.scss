@@ -11,6 +11,9 @@
   text-decoration: none;
   padding: 20px 0;
   font-size: 17px;
+  display: flex;
+  // flex-wrap: wrap;
+  justify-content: center;
 
   &:hover{
     background-color: $grey-color;
@@ -20,16 +23,15 @@
   }
 
   .title{
-    width: 200px;
+    width: auto;
     font-weight: bold;
     text-align: left;
   }
   .element-url{
     text-decoration: none;
-    width: 200px;
+    width: auto;
     color: $profile-color;
-    text-align: left;
-    display: inline-block;
+
 
     &:hover{
       color: $orange-color;
@@ -39,7 +41,7 @@
 
 .link-icons{
   display: inline-block;
-  width: 200px;
+  width: auto;
   text-align: right;
   visibility: hidden;
   a{

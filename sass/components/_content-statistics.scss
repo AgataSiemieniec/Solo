@@ -35,3 +35,25 @@
 .table-value{
   color: $dark-color;
 }
+
+.main-content-statistics-earnings{
+  width: 820px;
+  margin-bottom: 40px;
+}
+
+.earnings-title{
+  margin: 30px 0;
+
+  p{
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+
+.myChart{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+
+}
