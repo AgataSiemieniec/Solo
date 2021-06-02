@@ -51,3 +51,59 @@
     }
   }
 }
+
+@media (max-width: 1140px){
+
+  .table-element{
+    font-size: 13px;
+    width: 596px;
+    display: flex;
+    flex-wrap: wrap;
+    .title{
+      width: 100px;
+     }
+     .element-url{
+       width: 100px;
+     }
+     .link-icons{
+       width: 180px;
+     }
+
+  }
+}
+
+@media (max-width: 767px){
+  .table-element{
+    font-size: 13px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    .title{
+     width: 100px;
+    }
+    .element-url{
+      width: 100px;
+    }
+    .link-icons{
+      width: 180px;
+    }
+  }
+}
+
+// @media (max-width: 576px){
+//   .table-element{
+//     font-size: 13px;
+//     width: 400px;
+//     display: flex;
+//     flex-wrap: wrap;
+//     .title{
+//      width: 100px;
+//     }
+//     .element-url{
+//       width: 100px;
+//     }
+//     .link-icons{
+//       width: 180px;
+//     }
+//   }
+// }

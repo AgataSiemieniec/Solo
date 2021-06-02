@@ -50,10 +50,23 @@
   }
 }
 
-
 .myChart{
   position: relative;
-  width: 100%;
   margin: 0 auto;
-
+  z-index: 0;
 }
+
+@media (max-width: 1140px){
+
+  .main-content-statistics-earnings{
+    width: 400px;
+  }
+
+  .myChart{
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+
+  }
+}
+

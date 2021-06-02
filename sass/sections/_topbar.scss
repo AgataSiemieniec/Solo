@@ -8,6 +8,7 @@
   display: inline-flex;
   position: fixed;
   top: 0;
+  z-index: 5;
 }
 
 .navbar_element{
@@ -80,3 +81,14 @@ p{
 .icon_img{
   opacity: 0.5;
 }
+
+@media (max-width: 767px){
+  .wallet{
+    width: 70px;
+    .navbar-wallet-amount{
+      display: none;
+    }
+  }
+}
+
+

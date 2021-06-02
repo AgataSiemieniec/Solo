@@ -9,6 +9,7 @@
   color: $white-color;
   font-size: 14px;
   font-weight: 200;
+  z-index: 10;
 }
 
 .sidebar-header{
@@ -104,4 +105,32 @@
       position: absolute;
     }
   }
+}
+
+// .sidebar_menu {
+//   display: block;
+// }
+
+// .sidebar_menu, .show{
+//   display: none;
+// }
+
+@media (max-width: 767px){
+
+  .sidebar_menu{
+    display: none;
+  }
+
+  .sidebar-manager{
+    display: none;
+  }
+
+  .sidebar{
+    width: 70px;
+
+    .logo{
+      display: none;
+    }
+  }
+
 }

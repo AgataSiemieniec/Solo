@@ -5,6 +5,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 
   .main_content-date-fild{
     display: inline-flex;
@@ -27,6 +28,7 @@
     height: 38px;
     width: 38px;
     border: 1px solid $border-color;
+    flex-wrap: wrap;
     .date{
       margin: 10px;
     }
